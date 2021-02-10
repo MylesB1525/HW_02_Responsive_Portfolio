@@ -1,0 +1,57 @@
+.p-5 {
+  /* background-image: "./images/metallicpaintdark.jpg" no-repeat center fixed; */
+  background-image: url("./images/metallicpaintdark.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+  line-height: 1;
+}
+
+body {
+background-color: #343a40;
+}
+
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+#my-picture {
+  float: left;
+}
+
+#header1 {
+  font-family: 'Biome', 'Trebuchet MS', 'Arial', 'sans-serif';
+}
+
+#navname {
+font-family: 'Biome', sans-serif;
+letter-spacing: 3px;
+font-size: 32px;
+padding: auto;
+margin: 5px 5px 5px 5px;
+}
+
+.footer {
+  background-color: #343a40;
+  height: 50px;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.fa {
+  margin: 20px 5px 20px 5px;
+  color: #919191;
+  width: 40px;
+}
+
+@media screen and (max-width: 768px) {
+.wrapper {
+  width: 600px;
+}
+
+/* Portfolio Page */
+
+.container {
+  width: 50%;
+}
