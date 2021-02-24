@@ -2,12 +2,12 @@
   background-image: url("./images/metallicpaintdark.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;  
+  background-size: cover;
   line-height: 1;
 }
 
 body {
-background-color: #343a40;
+  background-color: #343a40;
 }
 
 .container {
@@ -23,12 +23,13 @@ background-color: #343a40;
 }
 
 #profilePicture {
-  image: url('./images/profilepic.jpg');
+  opacity: 1;
+  image: url("./images/profilepic.jpg");
   float: left;
 }
 
 #header1 {
-  font-family: 'Biome', 'Trebuchet MS', 'Arial', 'sans-serif';
+  font-family: "Biome", "Trebuchet MS", "Arial", "sans-serif";
 }
 
 #navbar-toggler {
@@ -36,12 +37,12 @@ background-color: #343a40;
 }
 
 #navname {
-font-family: 'Biome', sans-serif;
-color: #117a8b;
-letter-spacing: 3px;
-font-size: 32px;
-padding: auto;
-margin: 5px 5px 5px 5px;
+  font-family: "Biome", sans-serif;
+  color: #117a8b;
+  letter-spacing: 3px;
+  font-size: 32px;
+  padding: auto;
+  margin: 5px 5px 5px 5px;
 }
 
 .footer {
